@@ -22,6 +22,11 @@ export const QuizProvider = ({ children }) => {
       options: ["Jeff Bezos", "Elon Musk", "Bill Gates", "Tony Stark"],
       answer: "Elon Musk",
     },
+    {
+      question: "מהי המדינה הכי גדולה בעולם?",
+      options: ["ארצות הברית", "קנדה", "אוסטרליה", "רוסיה"],
+      answer: "רוסיה",
+    },
   ];
 
   // Initialize userAnswers as an array with a null value for each question
